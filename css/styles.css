@@ -5,13 +5,10 @@
     min-height: 50px;
     width: 100vw;
     position: absolute;
-    top: 0;
-    z-index: 0;
 }
 
 #navList {
     position: absolute;
-    z-index: 1;
     display: inline-flex;
     height: 11vh;
     min-height: 50px;
