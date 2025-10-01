@@ -8,7 +8,7 @@
     <!-- .. just goes to the parent directory it seems-->
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/77071d0ca7.js" crossorigin="anonymous"></script>
-     <script src="/changeImage.js"></script>
+    <script src="/changeImage.js"></script>
 </head>
 
 
@@ -22,18 +22,40 @@
         </ul>
     </nav>
 
-    <h class="title">Schlangen in Europa und Asien</h>
-    <images class="standard_images_container">
-        <img src="/assets\Pfailnater_3.Jpeg" class="standard_image">
-        <img src="/assets\Huffeisennater.jpg" class="standard_image">
-        <img src="/assets\Gemeine_Sandrasselotter_3.jpg" class="standard_image">
-    </images>
+    <h class="title">Schlangen in Asien </h>
+    <div class="flexContainer">
+        <section class="textblock" style="width: 40%; text-align: left;">In Asien gibt es viele verschiedene
+            Schlangenarten. Sie leben in unterschiedlichen Regionen wie Wäldern, Gebirgen oder offenen Landschaften.
+            Manche Arten sind ungiftig, andere haben ein giftiges Bissvermögen. In den folgenden Texten werden zwei
+            asiatische Schlangenarten kurz beschrieben.</section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57173176.00670386!2d100!3d28.999999999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsien!5e0!3m2!1sde!2sch!4v1759348010654!5m2!1sde!2sch"
+            width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <section class="textblock" style="margin-top: 60px; margin-bottom: 20 ;">Diese Seite zeigt sechs verschiedene
-        Schlangenarten. Drei davon leben in <a href="/pages\inhalt1.html" class="textlink">Europa</a>, drei in <a
-            href="/pages\inhalt2.html" class="textlink">Asien</a>.
-        Die Arten unterscheiden sich in Aussehen, Lebensraum und Verhalten. Die Übersicht bietet kurze Informationen zu
-        jeder dieser Schlangen.</section>
+        <img src="/assets\Gemeine_Sandrasselotter_3.jpg" class="standard_image">
+        <section class="textblock" style="margin-bottom: 80px; margin-top: 30px; width: 50%; text-align: left;">Die
+            Gemeine Sandrasselotter ist eine Giftschlange, die in trockenen Gebieten Asiens lebt. Sie wird meist 60 bis
+            70 cm lang, in Ausnahmefällen bis zu 80 cm. Ihre Färbung reicht von sandbraun über grau-braun bis
+            dunkelbraun, oft mit deutlicher Zeichnung am Rücken. Sie ist überwiegend nachtaktiv und ernährt sich von
+            Kleinsäugern, Echsen und anderen kleinen Tieren.</section>
+        <img id="AS1" src="/assets\\Gemeine_Sandrasselotter.jpg" style="width: 70%; margin-top: 30px;">
+        <button onclick="changeImageAS1()">Nächstes Bild</button>
+
+
+        <img src="/assets\kobra_3.jpg" class="standard_image" style="margin-top: 30px;">
+        <section class="textblock" style="margin-bottom: 80px; width: 50%; text-align: left; margin-top: 40px;">
+            Die Königskobra ist die größte Giftschlange in Asien. Sie lebt in tropischen Wäldern, Mangrovensümpfen und
+            Bambusdickichten. Sie ernährt sich vor allem von anderen Schlangen. Wenn sie sich bedroht fühlt,
+            hebt sie den vorderen Teil ihres Körpers an, spreizt ihre Kapuze und macht ein zischendes Geräusch.
+        </section>
+        <img id="AS2" src="/assets\\kobra_1.jpg" style="width: 70%; margin-top: 30px;">
+        <button onclick="changeImageAS2()">Nächstes Bild</button>
+
+
+    </div>
+
+
 
     <footer>Website von Nolan Mirco Kolb, 2025</footer>
 </body>
