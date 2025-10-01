@@ -1,10 +1,12 @@
 #navBar {
     font-size: 30px;
-    background-color: #ffe6bb;
+    background-color: #BCCD4F;
     height: 11vh;
     min-height: 50px;
     width: 100vw;
-    position: absolute;
+    position: fixed;
+    
+    
 }
 
 #navList {
@@ -28,6 +30,75 @@ a {
 a:hover{
     Transform: scale(1.2) !important;
 }
+
+.title {
+display: inline-block;
+font-size: 70px;
+margin: 10%;
+width: 80%;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.textblock {
+width: 80%;
+text-align:justify;
+word-wrap: break-word;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 600;
+font-size: 27px;
+text-align: center;
+}
+
+html{
+    height: 120vh;
+}
+
+button {
+    height: 50px;
+    background-color: #BCCD4F;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    width: 80%;
+}
+.map {
+    width: 30%;
+    margin-bottom: 150px;
+}
+
+.textlink {
+    color: blue;
+}
+
+
+body {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #F7F089;
+}
+footer {
+    text-align: center;
+    height: 5vh;
+    background: #CFC685;
+    width: 100%;
+    display:inline-block;
+    position: fixed;
+    bottom: 0px;
+}
+
+.standard_image {
+    width: 50vh;
+}
+
+.standard_images_container {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /*CSS stylesheet reset*/
 
@@ -166,3 +237,4 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
