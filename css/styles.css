@@ -62,7 +62,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 10%;
-    width: 80%;
+    width: 80vw;
 }
 .map {
     width: 30%;
