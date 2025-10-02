@@ -78,6 +78,9 @@ button {
     margin-left: 40vw;
 }
 
+img {
+    overflow: hidden;
+}
 body {
     min-height: 100vh;
     height: fit-content;
