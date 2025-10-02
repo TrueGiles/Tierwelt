@@ -4,4 +4,4 @@ Diese Seite informiert über verschiedene Schlangen aus Europa und Asien. Die se
 
 Quellen: Bilder: istockphoto.com, pahaa.de, wikimedia.org, schlangen-in-deutscland.de, myhostpoint.ch
 Besonderheiten: Bild gallerie die mit knopf bild wechselt
-limitierungen: Könnte mehr responsive sein
+limitierungen / probleme: Bessere Bilder (höhere Auflösung) 
